@@ -1,4 +1,4 @@
-Linear Regression - Order 1
+Linear Regression - Order 3
 
 Best Fit line plot
 
