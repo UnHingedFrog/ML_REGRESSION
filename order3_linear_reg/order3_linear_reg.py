@@ -14,7 +14,7 @@ def cube(e):                            # function to find cube of each element 
         b[...] = a*a*a
     return it.operands[1]
 
-data=np.genfromtxt('D:\machine learning\population.txt',delimiter=',')
+data=np.genfromtxt('sampledataset',delimiter=',')
 X=data[:,0:2]
 y=data[:,[2]]
 #print(y)
