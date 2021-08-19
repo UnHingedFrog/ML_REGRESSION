@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plotdata
 
-data=np.genfromtxt('D:\machine learning\population.txt',delimiter=',')
+data=np.genfromtxt('sampledataset',delimiter=',')
 X=data[:,0:2]
 y=data[:,[2]]
 #plotdata.scatter(X,y)
