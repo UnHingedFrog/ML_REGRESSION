@@ -52,5 +52,5 @@ y1=np.dot(X,np.transpose(theta_min))                # values predicted by the ob
 plotdata.plot(X[:,1],y1,'r')                        # best fit line
 plotdata.scatter(X[:,1],y)                          # original data
 plotdata.show()
-plotdata.plot(list(range(0,n)),J)                   # plot of the cost function
+plotdata.plot(list(range(0,n)),J)                   # plot of the loss function
 plotdata.show()
