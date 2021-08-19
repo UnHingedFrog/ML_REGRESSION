@@ -14,7 +14,7 @@ def cube(e):
         b[...] = a*a*a
     return it.operands[1]
 
-data=np.genfromtxt('D:\machine learning\population.txt',delimiter=',')
+data=np.genfromtxt('sampledataset',delimiter=',')
 x=data[:,0:2]
 y=data[:,[2]]
 #plotdata.scatter(X,y)
